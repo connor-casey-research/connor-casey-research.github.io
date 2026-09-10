@@ -374,8 +374,8 @@ body {
 }
 
 .hero-avatar {
-    width: 420px;
-    height: 420px;
+    width: 294px;
+    height: 294px;
     border-radius: 50%;
     object-fit: cover;
     border: 1px solid var(--border);
@@ -384,7 +384,7 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(3rem, 8vw, 7rem);
+    font-size: clamp(2.1rem, 5.6vw, 4.9rem);
     font-weight: 300;
     letter-spacing: -0.04em;
     line-height: 1.1;
@@ -597,6 +597,11 @@ body {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.6s ease;
+    margin-bottom: 1.5rem;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
 }
 
 .about-text.visible p,
@@ -822,6 +827,15 @@ body {
     color: var(--text-primary);
 }
 
+.news-text a,
+.news-text a em {
+    color: var(--terminal-cyan);
+}
+
+.news-item .publication-links {
+    margin-top: 1.5rem;
+}
+
 .lectures-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -952,12 +966,12 @@ body {
     }
 
     .hero-avatar {
-        width: 340px;
-        height: 340px;
+        width: 238px;
+        height: 238px;
     }
 
     .hero-title {
-        font-size: clamp(2rem, 10vw, 4rem);
+        font-size: clamp(1.4rem, 7vw, 2.8rem);
     }
 
     .hero-subtitle {
@@ -1101,13 +1115,13 @@ body {
     }
 
     .hero-avatar {
-        width: 260px;
-        height: 260px;
+        width: 182px;
+        height: 182px;
         margin-bottom: 2rem;
     }
 
     .hero-title {
-        font-size: clamp(1.75rem, 12vw, 3rem);
+        font-size: clamp(1.225rem, 8.4vw, 2.1rem);
         margin-bottom: 0.75rem;
     }
 
@@ -1277,7 +1291,7 @@ body {
     }
 
     .hero-title {
-        font-size: clamp(1.5rem, 14vw, 2.5rem);
+        font-size: clamp(1.05rem, 9.8vw, 1.75rem);
     }
 
     .section-title {
